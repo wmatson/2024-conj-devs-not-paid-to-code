@@ -11,7 +11,7 @@
                        :controls true
                        :controlsTutorial true
                        :progress false
-                       :transition "fade"                   ; e.g. none/fade/slide/convex/concave/zoom
+                       :transition "slide"                   ; e.g. none/fade/slide/convex/concave/zoom
                        :slideNumber "c"
                        :plugins [js/RevealNotes]}))
 
