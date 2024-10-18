@@ -7,3 +7,5 @@ In the light of AI and macroeconomic trends, it's natural to be anxious about th
 
 ----
 Slide compiled using [reveal-cljs](https://github.com/n2o/reveal-cljs)
+
+Run the slides locally via `make repl`
