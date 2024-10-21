@@ -138,9 +138,11 @@
            :width "512" :height "512"}]
     [:aside.notes "T-shaped people are all the rage."]]])
 
+;; Consider moving this up so it can have more time
 (def practical-applications-slide
   [:section
-   [:h2 "Most Direct Skill: Firefighting"]
+   [:h2 "Most Direct Skill: "
+    [:a {:href "https://youtu.be/r_lW1YRycIk?si=pvtxIncoLQuIJSM9"} "Firefighting"]]
    [:div.before-after
     [:div.before
      [:img {:src "img/firefight-spaghetti.png"
@@ -148,7 +150,7 @@
     [:div.after
      [:img {:src "img/firefight-pipes.png"
             :width "256" :height "512"}]]]
-   [:aside.note "Many have covered this, so I won't go into deep detail. Design your systems well"]])
+   [:aside.note "Many have covered this and it's fit to be its own talk, so I won't go into deep detail. Design your systems well"]])
 
 (def conclusion-slide
   [:section
